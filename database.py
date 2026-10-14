@@ -15,12 +15,138 @@ Usage:
 
 import contextlib
 import json
+import os
 import sqlite3
+import threading
+import time
 from pathlib import Path
 
 import pandas as pd
 
 DB_PATH = Path("data/timetable.db")
+
+# ── Turso (SQLite trên mạng) ──────────────────────────────────────────────────
+# Có cấu hình Turso (st.secrets["turso"] hoặc biến môi trường TURSO_DATABASE_URL /
+# TURSO_AUTH_TOKEN) → dùng bản sao cục bộ (embedded replica) đồng bộ với Turso:
+# đọc từ file cục bộ (nhanh), ghi gửi thẳng lên Turso. Không có → file DB_PATH.
+REPLICA_PATH = Path("data/turso_replica.db")
+SYNC_EVERY_S = 20   # đồng bộ lại để thấy thay đổi từ máy/người dùng khác
+
+
+def _turso_config() -> tuple[str, str] | None:
+    url = os.environ.get("TURSO_DATABASE_URL", "")
+    token = os.environ.get("TURSO_AUTH_TOKEN", "")
+    if not url:
+        try:
+            import streamlit as st
+            cfg = st.secrets.get("turso", {})
+            url, token = cfg.get("url", ""), cfg.get("auth_token", "")
+        except Exception:
+            pass
+    return (url, token) if url else None
+
+
+class _Row(tuple):
+    """Giống sqlite3.Row: truy cập theo chỉ số hoặc tên cột, dùng được với dict(row)."""
+    def __new__(cls, values, index):
+        r = super().__new__(cls, values)
+        r._index = index
+        return r
+
+    def __getitem__(self, k):
+        return tuple.__getitem__(self, self._index[k] if isinstance(k, str) else k)
+
+    def keys(self):
+        return list(self._index)
+
+
+class _Cursor:
+    def __init__(self, cur):
+        self._cur = cur
+        desc = cur.description or ()
+        self._index = {d[0]: i for i, d in enumerate(desc)}
+        self.rowcount = getattr(cur, "rowcount", -1)
+        self.lastrowid = getattr(cur, "lastrowid", None)
+        self.description = cur.description
+
+    def _wrap(self, r):
+        return None if r is None else _Row(r, self._index)
+
+    def fetchone(self):
+        return self._wrap(self._cur.fetchone())
+
+    def fetchall(self):
+        return [self._wrap(r) for r in self._cur.fetchall()]
+
+    def __iter__(self):
+        return iter(self.fetchall())
+
+
+class _LibsqlConn:
+    """Bọc kết nối libsql cho giống sqlite3 ở những gì module này dùng."""
+    def __init__(self, raw):
+        self._raw = raw
+        self.wrote = False
+
+    def execute(self, sql, params=()):
+        if not sql.lstrip().upper().startswith(("SELECT", "PRAGMA", "WITH")):
+            self.wrote = True
+        try:
+            return _Cursor(self._raw.execute(sql, tuple(params)))
+        except ValueError as e:
+            raise _as_integrity(e)
+
+    def executemany(self, sql, seq):
+        self.wrote = True
+        try:
+            return _Cursor(self._raw.executemany(sql, [tuple(p) for p in seq]))
+        except ValueError as e:
+            raise _as_integrity(e)
+
+    def executescript(self, script):
+        self.wrote = True
+        return self._raw.executescript(script)
+
+    @property
+    def total_changes(self):
+        return self._raw.execute("SELECT total_changes()").fetchone()[0]
+
+    def commit(self):
+        self._raw.commit()
+
+    def rollback(self):
+        self._raw.rollback()
+
+
+def _as_integrity(e: Exception) -> Exception:
+    msg = str(e)
+    if "UNIQUE" in msg or "constraint" in msg.lower():
+        return sqlite3.IntegrityError(msg)
+    return e
+
+
+_TURSO_LOCK = threading.RLock()
+_turso_conn = None
+_turso_last_sync = 0.0
+
+
+def _turso_connection(url: str, token: str):
+    """1 kết nối dùng chung cho cả tiến trình (libsql không an toàn đa luồng → khoá)."""
+    global _turso_conn, _turso_last_sync
+    import libsql
+    if _turso_conn is None:
+        REPLICA_PATH.parent.mkdir(exist_ok=True)
+        _turso_conn = libsql.connect(str(REPLICA_PATH), sync_url=url, auth_token=token)
+        _turso_conn.sync()
+        _turso_last_sync = time.time()
+    elif time.time() - _turso_last_sync > SYNC_EVERY_S:
+        _turso_conn.sync()
+        _turso_last_sync = time.time()
+    return _turso_conn
+
+
+def using_turso() -> bool:
+    return _turso_config() is not None
 
 # ── Seed data (từ yêu cầu của người dùng) ────────────────────────────────────
 # Dữ liệu này áp dụng cho cả 3 khối (10, 11, 12) làm giá trị mặc định.
@@ -61,6 +187,22 @@ def _connect():
     DB không hỏng (xác nhận bằng PRAGMA integrity_check). Luôn đóng bằng
     try/finally để không rò dù có exception.
     """
+    cfg = _turso_config()
+    if cfg:
+        global _turso_last_sync
+        with _TURSO_LOCK:
+            conn = _LibsqlConn(_turso_connection(*cfg))
+            try:
+                yield conn
+                conn.commit()
+            except Exception:
+                conn.rollback()
+                raise
+            if conn.wrote:   # kéo bản ghi vừa ghi về bản sao cục bộ
+                conn._raw.sync()
+                _turso_last_sync = time.time()
+        return
+
     DB_PATH.parent.mkdir(exist_ok=True)
     conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     conn.row_factory = sqlite3.Row
