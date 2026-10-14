@@ -1696,12 +1696,18 @@ def _render_scheduler_tab(_xls_path: str = "") -> None:
 
     # ── Trạng thái nguồn dữ liệu ─────────────────────────────────────────
     c1, c2, c3 = st.columns(3)
-    c1.success(f"✅ assignments.csv — {len(asgn_df)} phân công") if has_asgn \
-        else c1.error("❌ Chưa có assignments.csv")
-    c2.success(f"✅ teachers.csv — {len(teachers)} GV") if has_teachers \
-        else c2.error("❌ Chưa có teachers.csv")
-    c3.success(f"✅ class_subjects.csv — {len(cls_sub_df)} bản ghi") if has_cls_sub \
-        else c3.warning("⚠️ class_subjects.csv — dùng curriculum DB")
+    if has_asgn:
+        c1.success(f"✅ assignments.csv — {len(asgn_df)} phân công")
+    else:
+        c1.error("❌ Chưa có assignments.csv")
+    if has_teachers:
+        c2.success(f"✅ teachers.csv — {len(teachers)} GV")
+    else:
+        c2.error("❌ Chưa có teachers.csv")
+    if has_cls_sub:
+        c3.success(f"✅ class_subjects.csv — {len(cls_sub_df)} bản ghi")
+    else:
+        c3.warning("⚠️ class_subjects.csv — dùng curriculum DB")
 
     if not ready:
         st.info(
