@@ -1,0 +1,2949 @@
+{
+ "groups": {
+  "CT10-AVBN-08": [
+   4,
+   0
+  ],
+  "CT10-STEM-06": [
+   3,
+   1
+  ],
+  "CT10-THQT-11": [
+   2,
+   1
+  ],
+  "TC10-CL-08": [
+   2,
+   0
+  ],
+  "TC10-BR-02": [
+   1,
+   1
+  ],
+  "CT10-THQT-02": [
+   4,
+   1
+  ],
+  "CT10-THQT-03": [
+   2,
+   1
+  ],
+  "CT10-STEM-02": [
+   4,
+   1
+  ],
+  "TC10-BC-02": [
+   1,
+   1
+  ],
+  "TC10-BD-02": [
+   1,
+   1
+  ],
+  "CT10-AVBN-06": [
+   3,
+   1
+  ],
+  "TC10-CL-12": [
+   1,
+   0
+  ],
+  "TC10-BR-01": [
+   1,
+   0
+  ],
+  "CT10-STEM-01": [
+   0,
+   0
+  ],
+  "TC10-BD-01": [
+   1,
+   0
+  ],
+  "TC10-BC-01": [
+   4,
+   0
+  ],
+  "CT10-THQT-01": [
+   0,
+   1
+  ],
+  "CT10-AVBN-07": [
+   4,
+   1
+  ],
+  "CT10-THQT-10": [
+   4,
+   1
+  ],
+  "CT10-AVBN-09": [
+   1,
+   0
+  ],
+  "TC10-CL-09": [
+   2,
+   1
+  ],
+  "CT10-STEM-04": [
+   4,
+   0
+  ],
+  "TC10-BD-03": [
+   2,
+   1
+  ],
+  "TC10-BR-03": [
+   2,
+   1
+  ],
+  "CT10-AVBN-05": [
+   0,
+   0
+  ],
+  "CT10-STEM-05": [
+   3,
+   0
+  ],
+  "TC10-CL-06": [
+   3,
+   1
+  ],
+  "CT10-THQT-04": [
+   0,
+   0
+  ],
+  "TC10-CL-02": [
+   4,
+   0
+  ],
+  "CT10-THQT-07": [
+   3,
+   0
+  ],
+  "CT10-AVBN-03": [
+   2,
+   1
+  ],
+  "CT10-STEM-03": [
+   4,
+   1
+  ],
+  "CT10-THQT-05": [
+   3,
+   0
+  ],
+  "TC10-CL-11": [
+   0,
+   1
+  ],
+  "CT10-THQT-08": [
+   4,
+   0
+  ],
+  "CT10-AVBN-12": [
+   4,
+   0
+  ],
+  "TC10-CL-10": [
+   3,
+   0
+  ],
+  "TC10-CL-04": [
+   0,
+   1
+  ],
+  "TC10-CL-07": [
+   1,
+   1
+  ],
+  "CT10-AVBN-11": [
+   2,
+   0
+  ],
+  "TC10-CL-01": [
+   1,
+   0
+  ],
+  "CT10-AVBN-10": [
+   3,
+   0
+  ],
+  "CT10-THQT-06": [
+   1,
+   0
+  ],
+  "CT10-AVBN-01": [
+   0,
+   1
+  ],
+  "TC10-CL-03": [
+   4,
+   1
+  ],
+  "CT10-AVBN-02": [
+   3,
+   0
+  ],
+  "CT10-THQT-09": [
+   3,
+   1
+  ],
+  "CT10-AVBN-04": [
+   2,
+   0
+  ],
+  "TC10-CL-05": [
+   1,
+   1
+  ],
+  "TC11-BR-02": [
+   3,
+   1
+  ],
+  "CT11-THQT-02": [
+   0,
+   1
+  ],
+  "TC11-CL-02": [
+   3,
+   1
+  ],
+  "TC11-BD-02": [
+   2,
+   0
+  ],
+  "CT11-STEM-02": [
+   1,
+   0
+  ],
+  "CT11-AVBN-03": [
+   0,
+   0
+  ],
+  "TC11-BC-02": [
+   4,
+   1
+  ],
+  "CT11-AVBN-02": [
+   3,
+   1
+  ],
+  "TC11-CL-07": [
+   3,
+   0
+  ],
+  "CT11-THQT-05": [
+   1,
+   1
+  ],
+  "TC11-BR-03": [
+   0,
+   1
+  ],
+  "TC11-BD-01": [
+   4,
+   1
+  ],
+  "TC11-CL-04": [
+   0,
+   1
+  ],
+  "CT11-AVBN-05": [
+   2,
+   1
+  ],
+  "TC11-BC-01": [
+   2,
+   0
+  ],
+  "CT11-THQT-01": [
+   3,
+   0
+  ],
+  "CT11-AVBN-01": [
+   4,
+   1
+  ],
+  "TC11-CL-01": [
+   4,
+   1
+  ],
+  "CT11-STEM-01": [
+   4,
+   0
+  ],
+  "TC11-BR-01": [
+   2,
+   0
+  ],
+  "CT11-THQT-04": [
+   0,
+   0
+  ],
+  "CT11-AVBN-04": [
+   1,
+   1
+  ],
+  "CT11-THQT-03": [
+   1,
+   0
+  ],
+  "TC11-CL-06": [
+   3,
+   1
+  ],
+  "TC11-CL-03": [
+   2,
+   0
+  ],
+  "TC11-CL-05": [
+   0,
+   0
+  ],
+  "TC12-BR-03": [
+   5,
+   0
+  ],
+  "TC12-BC-03": [
+   5,
+   1
+  ],
+  "TC12-BD-03": [
+   0,
+   0
+  ],
+  "TC12-CL-01": [
+   0,
+   0
+  ],
+  "CT12-THQT-01": [
+   1,
+   1
+  ],
+  "TC12-BR-02": [
+   5,
+   1
+  ],
+  "TC12-BD-01": [
+   0,
+   1
+  ],
+  "TC12-CL-02": [
+   3,
+   0
+  ],
+  "TC12-CL-03": [
+   1,
+   1
+  ],
+  "CT12-THQT-03": [
+   3,
+   0
+  ],
+  "TC12-CL-05": [
+   5,
+   1
+  ],
+  "TC12-BC-02": [
+   0,
+   1
+  ],
+  "CT12-THQT-06": [
+   0,
+   1
+  ],
+  "TC12-CL-04": [
+   3,
+   0
+  ],
+  "TC12-BD-02": [
+   5,
+   1
+  ],
+  "TC12-CL-08": [
+   5,
+   1
+  ],
+  "TN12-LY-03": [
+   0,
+   1
+  ],
+  "TN12-TIN-01": [
+   0,
+   1
+  ],
+  "TN12-LY-02": [
+   3,
+   0
+  ],
+  "TN12-SU-04": [
+   3,
+   0
+  ],
+  "TC12-BC-01": [
+   5,
+   0
+  ],
+  "TN12-HOA-04": [
+   3,
+   1
+  ],
+  "CT12-THQT-02": [
+   3,
+   1
+  ],
+  "TN12-LY-06": [
+   0,
+   0
+  ],
+  "TN12-LY-01": [
+   3,
+   1
+  ],
+  "TN12-HOA-01": [
+   0,
+   0
+  ],
+  "TN12-SU-03": [
+   1,
+   1
+  ],
+  "TN12-DIA-02": [
+   1,
+   1
+  ],
+  "TN12-SU-01": [
+   0,
+   1
+  ],
+  "TN12-LY-04": [
+   0,
+   1
+  ],
+  "TC12-BR-01": [
+   3,
+   0
+  ],
+  "TN12-KTPL-02": [
+   3,
+   1
+  ],
+  "TN12-ANH-02": [
+   0,
+   1
+  ],
+  "TC12-CL-07": [
+   5,
+   0
+  ],
+  "TN12-LY-05": [
+   3,
+   1
+  ],
+  "CT12-THQT-04": [
+   4,
+   1
+  ],
+  "TN12-DIA-03": [
+   0,
+   1
+  ],
+  "CT12-THQT-05": [
+   3,
+   1
+  ],
+  "TC12-CL-06": [
+   0,
+   0
+  ],
+  "TN12-SU-02": [
+   3,
+   1
+  ],
+  "TN12-KTPL-01": [
+   0,
+   0
+  ],
+  "TN12-HOA-02": [
+   0,
+   1
+  ],
+  "TN12-DIA-01": [
+   3,
+   1
+  ],
+  "TN12-HOA-03": [
+   0,
+   1
+  ],
+  "TN12-SINH-02": [
+   1,
+   1
+  ],
+  "TN12-SINH-01": [
+   0,
+   0
+  ],
+  "TN12-ANH-06": [
+   1,
+   1
+  ],
+  "TN12-ANH-08": [
+   2,
+   1
+  ],
+  "TN12-ANH-01": [
+   3,
+   1
+  ],
+  "TN12-ANH-04": [
+   0,
+   1
+  ],
+  "TN12-ANH-09": [
+   3,
+   0
+  ],
+  "TN12-ANH-10": [
+   0,
+   1
+  ],
+  "TN12-ANH-03": [
+   3,
+   1
+  ],
+  "TN12-ANH-05": [
+   3,
+   0
+  ],
+  "TN12-ANH-07": [
+   3,
+   0
+  ]
+ },
+ "moves": [
+  [
+   "12A1",
+   "SỬ",
+   "LÊ THỊ NHẬT THẢO",
+   "Thứ 4",
+   4,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A1",
+   "TOÁN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A1",
+   "TOÁN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A10",
+   "CĐ TOÁN",
+   "PHẠM LÊ THÙY DUNG",
+   "Thứ 6",
+   4,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A10",
+   "SINH",
+   "NGUYỄN THỊ TUYẾT NHUNG",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A10",
+   "VĂN",
+   "DƯƠNG THỊ THẮM",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A10",
+   "VĂN",
+   "DƯƠNG THỊ THẮM",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "CĐ SINH",
+   "TRẦN THỊ MỸ SƯƠNG",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "CĐ TOÁN",
+   "ĐOÀN THỊ KIM HẠNH",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "KTPL",
+   "MAI THỊ BÍCH PHƯƠNG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "KTPL",
+   "MAI THỊ BÍCH PHƯƠNG",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A11",
+   "ĐỊA",
+   "ĐÀO THỊ THÀNH",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "SINH",
+   "MÃ THỊ MINH THI",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "SINH",
+   "MÃ THỊ MINH THI",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 4",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 4",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A12",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "ANH",
+   "NGUYỄN MINH THANH TÙNG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "HĐTN",
+   "TRẦN THỊ MỸ SƯƠNG",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "KTPL",
+   "LÊ THỊ TUYẾT THU",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "KTPL",
+   "LÊ THỊ TUYẾT THU",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "VĂN",
+   "HOÀNG THỊ HẢI YẾN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "VĂN",
+   "HOÀNG THỊ HẢI YẾN",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A13",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "HĐTN",
+   "ĐỖ ỨC TUỆ",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "HĐTN",
+   "ĐỖ ỨC TUỆ",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "TOÁN",
+   "ĐỖ ỨC TUỆ",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "TOÁN",
+   "ĐỖ ỨC TUỆ",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "VĂN",
+   "LƯU BÍCH HOÀI THÊM",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A14",
+   "VĂN",
+   "LƯU BÍCH HOÀI THÊM",
+   "Thứ 4",
+   4,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A15",
+   "GDĐP",
+   "TƯỞNG ĐÔNG DIỆM",
+   "Thứ 6",
+   3,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A15",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A15",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A15",
+   "TOÁN",
+   "PHẠM LÊ THÙY DUNG",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A15",
+   "VĂN",
+   "QUÁCH THỊ THỦY",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "CĐ HÓA",
+   "NGUYỄN QUỐC DŨNG",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "HÓA",
+   "NGUYỄN QUỐC DŨNG",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 4",
+   4,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "SINH",
+   "MÃ THỊ MINH THI",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A2",
+   "TOÁN",
+   "TRẦN PHƯƠNG NHƯ",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A3",
+   "GDĐP",
+   "TRẦN THỊ MỸ SƯƠNG",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A3",
+   "HĐTN",
+   "TRƯƠNG THÚC QUẢNG",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A3",
+   "HĐTN",
+   "TRƯƠNG THÚC QUẢNG",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A3",
+   "TOÁN",
+   "TRƯƠNG THÚC QUẢNG",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "CĐ HÓA",
+   "LÂM GIA HÂN",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "HÓA",
+   "LÂM GIA HÂN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "HÓA",
+   "LÂM GIA HÂN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "KTPL",
+   "MAI THỊ BÍCH PHƯƠNG",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "LÝ",
+   "HỒ VĂN BÌNH",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "VĂN",
+   "NGUYỄN HỮU BẮC",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A4",
+   "VĂN",
+   "NGUYỄN HỮU BẮC",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "CĐ TOÁN",
+   "NGUYỄN THỊ THU BA",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "HÓA",
+   "NGUYỄN VĂN TRỌNG",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "HÓA",
+   "NGUYỄN VĂN TRỌNG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "SỬ",
+   "PHẠM VĂN HẢI",
+   "Thứ 4",
+   3,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A5",
+   "TOÁN",
+   "NGUYỄN THỊ THU BA",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A6",
+   "CĐ TOÁN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A6",
+   "HĐTN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A6",
+   "TOÁN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A6",
+   "TOÁN",
+   "TRẦN ĐẠI NGHĨA",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A7",
+   "SỬ",
+   "LÊ THỊ NHẬT THẢO",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A7",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 6",
+   4,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A7",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 6",
+   3,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A7",
+   "VĂN",
+   "LƯU THỊ ANH THƯ",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A7",
+   "ĐỊA",
+   "HUỲNH THỊ BÍCH HUYỀN",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "CN",
+   "TRẦN NHƯ THẢO",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "CĐ TOÁN",
+   "ĐINH VĂN TRÍ",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "TIN",
+   "NGUYỄN PHI HÙNG",
+   "Thứ 6",
+   3,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "TIN",
+   "NGUYỄN PHI HÙNG",
+   "Thứ 6",
+   4,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "TOÁN",
+   "ĐINH VĂN TRÍ",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A8",
+   "TOÁN",
+   "ĐINH VĂN TRÍ",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "CĐ VĂN",
+   "NGUYỄN THỊ NGÂN",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "KTPL",
+   "TRẦN THỊ XUÂN ĐÀO",
+   "Thứ 5",
+   4,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 5",
+   3,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "TOÁN",
+   "NGUYỄN THỊ THU BA",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "TOÁN",
+   "NGUYỄN THỊ THU BA",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "12A9",
+   "VĂN",
+   "NGUYỄN THỊ NGÂN",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A1",
+   "ANH",
+   "NGUYỄN MINH THANH TÙNG",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A1",
+   "ANH",
+   "NGUYỄN MINH THANH TÙNG",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A1",
+   "SỬ",
+   "NGUYỄN PHƯỚC KHÔI",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A10",
+   "ANH",
+   "MAI LAN ANH",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A10",
+   "ĐỊA",
+   "ĐÀO THỊ THÀNH",
+   "Thứ 5",
+   3,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A10",
+   "ĐỊA",
+   "ĐÀO THỊ THÀNH",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A11",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A11",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A11",
+   "CĐ ĐỊA",
+   "HUỲNH THỊ BÍCH HUYỀN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A11",
+   "GDĐP",
+   "HOÀNG THỊ TỨ",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A11",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A12",
+   "CĐ ĐỊA",
+   "HUỲNH THỊ BÍCH HUYỀN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A12",
+   "TOÁN",
+   "HUỲNH THỊ DIỄM LINH",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A12",
+   "TOÁN",
+   "HUỲNH THỊ DIỄM LINH",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A12",
+   "VĂN",
+   "NGUYỄN HỮU BẮC",
+   "Thứ 4",
+   2,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A12",
+   "VĂN",
+   "NGUYỄN HỮU BẮC",
+   "Thứ 4",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A13",
+   "ANH",
+   "VĂN HUỲNH BẢO PHƯƠNG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A13",
+   "ANH",
+   "VĂN HUỲNH BẢO PHƯƠNG",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A13",
+   "CĐ ĐỊA",
+   "ĐÀO THỊ THÀNH",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A13",
+   "VĂN",
+   "QUÁCH THỊ THỦY",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A14",
+   "CN",
+   "TRẦN NHƯ THẢO",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A14",
+   "SINH",
+   "NGUYỄN THỊ QUỲNH DIỄM",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A14",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A15",
+   "ANH",
+   "VĂN HUỲNH BẢO PHƯƠNG",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A15",
+   "CĐ VĂN",
+   "PHẠM CHÍ NGUYỆN",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A16",
+   "ANH",
+   "VĂN HUỲNH BẢO PHƯƠNG",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A16",
+   "HĐTN",
+   "LÊ THỊ PHUỢNG",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A17",
+   "HÓA",
+   "NGUYỄN THỊ DIẾN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A17",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A17",
+   "VĂN",
+   "NGUYỄN HỒNG GIANG",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A18",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A18",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A18",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A18",
+   "CĐ ĐỊA",
+   "BÙI THỊ THỦY TIÊN",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A18",
+   "VĂN",
+   "NGUYỄN THỊ GIANG",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A19",
+   "CĐ ĐỊA",
+   "HUỲNH THỊ BÍCH HUYỀN",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A19",
+   "QPAN",
+   "HỒ PHƯƠNG THẢO",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A19",
+   "ĐỊA",
+   "HUỲNH THỊ BÍCH HUYỀN",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "CĐ TOÁN",
+   "NGUYỄN VĂN TÂM",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "QPAN",
+   "HOÀNG THỊ TỨ",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "SỬ",
+   "NGUYỄN THỊ DIỆP LÀI",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "TOÁN",
+   "NGUYỄN VĂN TÂM",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A2",
+   "TOÁN",
+   "NGUYỄN VĂN TÂM",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A20",
+   "GDĐP",
+   "TƯỞNG ĐÔNG DIỆM",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A20",
+   "SINH",
+   "TRẦN THỊ MỸ SƯƠNG",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A20",
+   "SỬ",
+   "NGUYỄN PHƯỚC KHÔI",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A21",
+   "HĐTN",
+   "CAO ĐÌNH TRUNG HẬU",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A21",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A21",
+   "TOÁN",
+   "HUỲNH THỊ DIỄM LINH",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A3",
+   "KTPL",
+   "LÊ THỊ TUYẾT THU",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A3",
+   "LÝ",
+   "NGÔ PHÁT THƯƠNG",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A3",
+   "LÝ",
+   "NGÔ PHÁT THƯƠNG",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A3",
+   "VĂN",
+   "NGUYỄN THỊ GIANG",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 5",
+   3,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "ANH",
+   "LÊ THỊ TƯỜNG VY",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "HĐTN",
+   "TRẦN THỊ LAM HỒNG",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 6",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 5",
+   4,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A4",
+   "SỬ",
+   "NGÔ THÚY DUY",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A5",
+   "TOÁN",
+   "NGUYỄN DUY HƯNG",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A5",
+   "TOÁN",
+   "NGUYỄN DUY HƯNG",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A6",
+   "GDĐP",
+   "CAO ĐÌNH TRUNG HẬU",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A6",
+   "HÓA",
+   "NGUYỄN THỊ NGỌC MINH",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A6",
+   "QPAN",
+   "HOÀNG THỊ TỨ",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A6",
+   "SỬ",
+   "NGUYỄN PHƯỚC KHÔI",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A7",
+   "CĐ HÓA",
+   "NGUYỄN TRẦN MAI THANH",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A7",
+   "KTPL",
+   "TRẦN THỊ XUÂN ĐÀO",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A7",
+   "LÝ",
+   "TRẦN THỊ HẠNH",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A7",
+   "LÝ",
+   "TRẦN THỊ HẠNH",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "10A8",
+   "CĐ ĐỊA",
+   "BÙI THỊ THỦY TIÊN",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "10A8",
+   "VĂN",
+   "TRƯƠNG THU TRANG",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "10A8",
+   "ĐỊA",
+   "BÙI THỊ THỦY TIÊN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A8",
+   "ĐỊA",
+   "BÙI THỊ THỦY TIÊN",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A9",
+   "HĐTN",
+   "NGÔ PHÁT THƯƠNG",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A9",
+   "SỬ",
+   "NGUYỄN PHƯỚC KHÔI",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "10A9",
+   "TOÁN",
+   "NGUYỄN VĂN TÂM",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A1",
+   "ANH",
+   "VĂN HUỲNH BẢO PHƯƠNG",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A1",
+   "QPAN",
+   "HỒ VĂN VĨNH",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 6",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A1",
+   "VĂN",
+   "PHẠM CHÍ NGUYỆN",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A1",
+   "VĂN",
+   "PHẠM CHÍ NGUYỆN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A10",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A10",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A10",
+   "CĐ ĐỊA",
+   "BÙI THỊ THỦY TIÊN",
+   "Thứ 3",
+   4,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A10",
+   "SỬ",
+   "LÊ THỊ NHẬT THẢO",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A11",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 6",
+   3,
+   "Chiều",
+   "Thứ 5",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A11",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 6",
+   4,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A11",
+   "CN",
+   "TRẦN NHƯ THẢO",
+   "Thứ 4",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A11",
+   "CĐ ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A11",
+   "HĐTN",
+   "CAO ĐÌNH TRUNG HẬU",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A12",
+   "SỬ",
+   "LÊ THỊ NHẬT THẢO",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A13",
+   "SỬ",
+   "LÊ THỊ NHẬT THẢO",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 5",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A13",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A13",
+   "TIN",
+   "NGUYỄN NGỌC BẢO TRÂN",
+   "Thứ 2",
+   4,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A14",
+   "ANH",
+   "TRẦN THỊ MỸ THANH",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A14",
+   "VĂN",
+   "HOÀNG THỊ HẢI YẾN",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A14",
+   "VĂN",
+   "HOÀNG THỊ HẢI YẾN",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A3",
+   "LÝ",
+   "TRẦN THỊ LAM HỒNG",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 6",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A3",
+   "VĂN",
+   "NGUYỄN THỊ NGÂN",
+   "Thứ 5",
+   3,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A4",
+   "ANH",
+   "ĐOÀN VĂN CHẤT",
+   "Thứ 2",
+   3,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A4",
+   "HÓA",
+   "NGUYỄN THỊ DIẾN",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A5",
+   "ANH",
+   "MAI LAN ANH",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 3",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A5",
+   "CĐ TOÁN",
+   "NGUYỄN DUY HƯNG",
+   "Thứ 4",
+   2,
+   "Chiều",
+   "Thứ 5",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A5",
+   "KTPL",
+   "MAI THỊ BÍCH PHƯƠNG",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 4",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A5",
+   "TOÁN",
+   "NGUYỄN DUY HƯNG",
+   "Thứ 4",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A6",
+   "CĐ TOÁN",
+   "TRẦN PHƯƠNG NHƯ",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A6",
+   "HÓA",
+   "NGUYỄN VĂN TRỌNG",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A6",
+   "VĂN",
+   "PHẠM CHÍ NGUYỆN",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A7",
+   "CĐ HÓA",
+   "NGUYỄN TRẦN MAI THANH",
+   "Thứ 3",
+   3,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A7",
+   "CĐ TOÁN",
+   "NGUYỄN VIỆT PHƯƠNG",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A7",
+   "GDĐP",
+   "HỒ PHƯƠNG THẢO",
+   "Thứ 3",
+   1,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A7",
+   "VĂN",
+   "HOÀNG THỊ HẢI YẾN",
+   "Thứ 3",
+   2,
+   "Chiều",
+   "Thứ 5",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A8",
+   "HÓA",
+   "NGUYỄN THỊ NGỌC MINH",
+   "Thứ 2",
+   1,
+   "Chiều",
+   "Thứ 4",
+   1,
+   "Chiều"
+  ],
+  [
+   "11A8",
+   "HÓA",
+   "NGUYỄN THỊ NGỌC MINH",
+   "Thứ 2",
+   2,
+   "Chiều",
+   "Thứ 4",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A8",
+   "TOÁN",
+   "NGUYỄN VĂN TÂM",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 3",
+   4,
+   "Chiều"
+  ],
+  [
+   "11A8",
+   "VĂN",
+   "TRƯƠNG THU TRANG",
+   "Thứ 6",
+   1,
+   "Chiều",
+   "Thứ 4",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A9",
+   "SINH",
+   "NGUYỄN THỊ QUỲNH DIỄM",
+   "Thứ 5",
+   2,
+   "Chiều",
+   "Thứ 2",
+   2,
+   "Chiều"
+  ],
+  [
+   "11A9",
+   "TOÁN",
+   "TRẦN PHƯƠNG NHƯ",
+   "Thứ 5",
+   1,
+   "Chiều",
+   "Thứ 3",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A9",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 6",
+   3,
+   "Chiều",
+   "Thứ 2",
+   3,
+   "Chiều"
+  ],
+  [
+   "11A9",
+   "ĐỊA",
+   "PHẠM THỊ THU HƯỜNG",
+   "Thứ 6",
+   2,
+   "Chiều",
+   "Thứ 2",
+   1,
+   "Chiều"
+  ]
+ ],
+ "gv": {
+  "CT10-AVBN-08": "Du Piesanie Nadia",
+  "CT10-STEM-06": "Lê Thiên Tân",
+  "CT10-THQT-11": "KIM VĨNH ANH KHOA",
+  "TC10-CL-08": "DIỆP KIM HẢI",
+  "TC10-BR-02": "TRƯƠNG VĂN THƠ",
+  "CT10-THQT-02": "Đặng Thị Xuân",
+  "CT10-THQT-03": "Đặng Thị Xuân",
+  "CT10-STEM-02": "Nguyễn Lê Diệu Tuyến",
+  "TC10-BC-02": "BÙI VĂN CƯỜNG",
+  "TC10-BD-02": "NGUYỄN HỮU HIỆP",
+  "CT10-AVBN-06": "Du Piesanie Nadia",
+  "TC10-CL-12": "DIỆP KIM HẢI",
+  "TC10-BR-01": "TRƯƠNG VĂN THƠ",
+  "CT10-STEM-01": "Nguyễn Lê Diệu Tuyến",
+  "TC10-BD-01": "NGUYỄN HỮU HIỆP",
+  "TC10-BC-01": "BÙI VĂN CƯỜNG",
+  "CT10-THQT-01": "Đặng Thị Xuân",
+  "CT10-AVBN-07": "Du Piesanie Nadia",
+  "CT10-THQT-10": "NGUYỄN PHI HÙNG",
+  "CT10-AVBN-09": "Van Graan Rochelle",
+  "TC10-CL-09": "DIỆP KIM HẢI",
+  "CT10-STEM-04": "Lê Thiên Tân",
+  "TC10-BD-03": "NGUYỄN HỮU HIỆP",
+  "TC10-BR-03": "TRƯƠNG VĂN THƠ",
+  "CT10-AVBN-05": "Du Piesanie Nadia",
+  "CT10-STEM-05": "Lê Thiên Tân",
+  "TC10-CL-06": "DIỆP KIM HẢI",
+  "CT10-THQT-04": "Đặng Thị Xuân",
+  "TC10-CL-02": "NGUYỄN NGỌC TUẤN",
+  "CT10-THQT-07": "NGUYỄN PHI HÙNG",
+  "CT10-AVBN-03": "Du Piesanie Nadia",
+  "CT10-STEM-03": "Lê Thiên Tân",
+  "CT10-THQT-05": "HUỲNH CHÍ CƯỜNG",
+  "TC10-CL-11": "DIỆP KIM HẢI",
+  "CT10-THQT-08": "NGUYỄN PHI HÙNG",
+  "CT10-AVBN-12": "Van Graan Rochelle",
+  "TC10-CL-10": "DIỆP KIM HẢI",
+  "TC10-CL-04": "NGUYỄN NGỌC TUẤN",
+  "TC10-CL-07": "DIỆP KIM HẢI",
+  "CT10-AVBN-11": "Van Graan Rochelle",
+  "TC10-CL-01": "NGUYỄN NGỌC TUẤN",
+  "CT10-AVBN-10": "Van Graan Rochelle",
+  "CT10-THQT-06": "HUỲNH CHÍ CƯỜNG",
+  "CT10-AVBN-01": "Du Piesanie Nadia",
+  "TC10-CL-03": "NGUYỄN NGỌC TUẤN",
+  "CT10-AVBN-02": "Du Piesanie Nadia",
+  "CT10-THQT-09": "NGUYỄN PHI HÙNG",
+  "CT10-AVBN-04": "Du Piesanie Nadia",
+  "TC10-CL-05": "NGUYỄN NGỌC TUẤN",
+  "TC11-BR-02": "TRƯƠNG VĂN THƠ",
+  "CT11-THQT-02": "TRƯƠNG VĂN PHÚC",
+  "TC11-CL-02": "ĐỖ BÁ KHANG",
+  "TC11-BD-02": "NGUYỄN HỮU HIỆP",
+  "CT11-STEM-02": "Nguyễn Lê Diệu Tuyến",
+  "CT11-AVBN-03": "Rayas Lilliana Isabel",
+  "TC11-BC-02": "BÙI VĂN CƯỜNG",
+  "CT11-AVBN-02": "Rayas Lilliana Isabel",
+  "TC11-CL-07": "NGUYỄN NGỌC TUẤN",
+  "CT11-THQT-05": "KIM VĨNH ANH KHOA",
+  "TC11-BR-03": "TRƯƠNG VĂN THƠ",
+  "TC11-BD-01": "NGUYỄN HỮU HIỆP",
+  "TC11-CL-04": "ĐỖ BÁ KHANG",
+  "CT11-AVBN-05": "Rayas Lilliana Isabel",
+  "TC11-BC-01": "BÙI VĂN CƯỜNG",
+  "CT11-THQT-01": "TRƯƠNG VĂN PHÚC",
+  "CT11-AVBN-01": "Rayas Lilliana Isabel",
+  "TC11-CL-01": "ĐỖ BÁ KHANG",
+  "CT11-STEM-01": "Nguyễn Lê Diệu Tuyến",
+  "TC11-BR-01": "TRƯƠNG VĂN THƠ",
+  "CT11-THQT-04": "KIM VĨNH ANH KHOA",
+  "CT11-AVBN-04": "Rayas Lilliana Isabel",
+  "CT11-THQT-03": "KIM VĨNH ANH KHOA",
+  "TC11-CL-06": "NGUYỄN NGỌC TUẤN",
+  "TC11-CL-03": "ĐỖ BÁ KHANG",
+  "TC11-CL-05": "NGUYỄN NGỌC TUẤN",
+  "TC12-BR-03": "TRƯƠNG VĂN THƠ",
+  "TC12-BC-03": "BÙI VĂN CƯỜNG",
+  "TC12-BD-03": "NGUYỄN HỮU HIỆP",
+  "TC12-CL-01": "BÙI VĂN CƯỜNG",
+  "CT12-THQT-01": "HUỲNH CHÍ CƯỜNG",
+  "TC12-BR-02": "TRƯƠNG VĂN THƠ",
+  "TC12-BD-01": "NGUYỄN HỮU HIỆP",
+  "TC12-CL-02": "BÙI VĂN CƯỜNG",
+  "TC12-CL-03": "ĐỖ BÁ KHANG",
+  "CT12-THQT-03": "NGUYỄN NGỌC BẢO TRÂN",
+  "TC12-CL-05": "ĐỖ BÁ KHANG",
+  "TC12-BC-02": "BÙI VĂN CƯỜNG",
+  "CT12-THQT-06": "NGUYỄN NGỌC BẢO TRÂN",
+  "TC12-CL-04": "ĐỖ BÁ KHANG",
+  "TC12-BD-02": "NGUYỄN HỮU HIỆP",
+  "TC12-CL-08": "DIỆP KIM HẢI",
+  "TN12-LY-03": "DƯƠNG ANH QUANG",
+  "TN12-TIN-01": "NGUYỄN PHI HÙNG",
+  "TN12-LY-02": "NGÔ PHÁT THƯƠNG",
+  "TN12-SU-04": "LÊ THỊ NHẬT THẢO",
+  "TC12-BC-01": "BÙI VĂN CƯỜNG",
+  "TN12-HOA-04": "NGUYỄN QUỐC DŨNG",
+  "CT12-THQT-02": "HUỲNH CHÍ CƯỜNG",
+  "TN12-LY-06": "DƯƠNG ANH QUANG",
+  "TN12-LY-01": "HỒ VĂN BÌNH",
+  "TN12-HOA-01": "TRƯƠNG NGỌC ANH LUÂN",
+  "TN12-SU-03": "PHẠM VĂN HẢI",
+  "TN12-DIA-02": "PHẠM THỊ THU HƯỜNG",
+  "TN12-SU-01": "NGÔ THÚY DUY",
+  "TN12-LY-04": "NGUYỄN MINH HOÀNG",
+  "TC12-BR-01": "TRƯƠNG VĂN THƠ",
+  "TN12-KTPL-02": "MAI THỊ BÍCH PHƯƠNG",
+  "TN12-ANH-02": "PHẠM THỊ PHƯƠNG ĐIỀN",
+  "TC12-CL-07": "ĐỖ BÁ KHANG",
+  "TN12-LY-05": "NGUYỄN MINH HOÀNG",
+  "CT12-THQT-04": "NGUYỄN NGỌC BẢO TRÂN",
+  "TN12-DIA-03": "HUỲNH THỊ BÍCH HUYỀN",
+  "CT12-THQT-05": "NGUYỄN NGỌC BẢO TRÂN",
+  "TC12-CL-06": "ĐỖ BÁ KHANG",
+  "TN12-SU-02": "NGUYỄN THỊ DIỆP LÀI",
+  "TN12-KTPL-01": "TRẦN THỊ XUÂN ĐÀO",
+  "TN12-HOA-02": "LÂM GIA HÂN",
+  "TN12-DIA-01": "ĐÀO THỊ THÀNH",
+  "TN12-HOA-03": "NGUYỄN VĂN TRỌNG",
+  "TN12-SINH-02": "TRẦN THỊ MỸ SƯƠNG",
+  "TN12-SINH-01": "NGUYỄN THỊ TUYẾT NHUNG",
+  "TN12-ANH-06": "NGUYỄN MINH THANH TÙNG",
+  "TN12-ANH-08": "TRẦN THỊ MỸ THANH",
+  "TN12-ANH-01": "NGUYỄN VĂN HÙNG",
+  "TN12-ANH-04": "NGUYỄN THỊ THUỲ DƯƠNG",
+  "TN12-ANH-09": "NGUYỄN THỊ THUỲ DƯƠNG",
+  "TN12-ANH-10": "NGUYỄN VĂN HÙNG",
+  "TN12-ANH-03": "PHẠM THỊ PHƯƠNG ĐIỀN",
+  "TN12-ANH-05": "LÊ THỊ TƯỜNG VY",
+  "TN12-ANH-07": "TRẦN THỊ MỸ THANH"
+ },
+ "external": [
+  "Du Piesanie Nadia",
+  "Lê Thiên Tân",
+  "Nguyễn Lê Diệu Tuyến",
+  "Rayas Lilliana Isabel",
+  "Van Graan Rochelle",
+  "Đặng Thị Xuân"
+ ],
+ "notes": [
+  "",
+  "GHI CHÚ:",
+  "Phá nguyện vọng: cô PHẠM THỊ THU HƯỜNG dạy nhóm TN12-DIA-02 chiều Thứ 3 tiết 7-8 (cô báo bận chiều T3, T5; 11 tiết chính khóa + 2 tiết nhóm vượt 12 tiết chiều còn rảnh).",
+  "8 nhóm GDTC khối 12 học sáng Thứ 7 (không đủ ca chiều trong tuần)."
+ ]
+}

@@ -1,0 +1,92 @@
+﻿grade,subject,periods_per_week,type
+10,ANH,3,Bắt buộc
+10,CN,2,Bắt buộc
+10,CĐ HÓA,1,Tự chọn
+10,CĐ LÝ,1,Tự chọn
+10,CĐ SINH,1,Tự chọn
+10,CĐ SỬ,1,Tự chọn
+10,CĐ TOÁN,1,Tự chọn
+10,CĐ VĂN,1,Tự chọn
+10,CĐ ĐỊA,1,Tự chọn
+10,GDĐP,1,Bắt buộc
+10,HÓA,2,Bắt buộc
+10,HĐTN,1,Bắt buộc
+10,KTPL,2,Bắt buộc
+10,LÝ,2,Bắt buộc
+10,QPAN,1,Bắt buộc
+10,SINH,2,Bắt buộc
+10,SỬ,2,Bắt buộc
+10,TIN,2,Bắt buộc
+10,TOÁN,3,Bắt buộc
+10,VĂN,3,Bắt buộc
+10,ĐỊA,2,Bắt buộc
+11,ANH,3,Bắt buộc
+11,CN,2,Bắt buộc
+11,CĐ HÓA,1,Tự chọn
+11,CĐ LÝ,1,Tự chọn
+11,CĐ SINH,1,Tự chọn
+11,CĐ SỬ,1,Tự chọn
+11,CĐ TOÁN,1,Tự chọn
+11,CĐ VĂN,1,Tự chọn
+11,CĐ ĐỊA,1,Tự chọn
+11,GDĐP,1,Bắt buộc
+11,HÓA,2,Bắt buộc
+11,HĐTN,1,Bắt buộc
+11,KTPL,2,Bắt buộc
+11,LÝ,2,Bắt buộc
+11,QPAN,1,Bắt buộc
+11,SINH,2,Bắt buộc
+11,SỬ,1,Bắt buộc
+11,TIN,2,Bắt buộc
+11,TOÁN,3,Bắt buộc
+11,VĂN,3,Bắt buộc
+11,ĐỊA,2,Bắt buộc
+12,ANH,3,Bắt buộc
+12,CN,2,Bắt buộc
+12,CĐ HÓA,1,Tự chọn
+12,CĐ KTPL,1,Tự chọn
+12,CĐ LÝ,1,Tự chọn
+12,CĐ SINH,1,Tự chọn
+12,CĐ SỬ,1,Tự chọn
+12,CĐ TOÁN,1,Tự chọn
+12,CĐ VĂN,1,Tự chọn
+12,CĐ ĐỊA,1,Tự chọn
+12,GDĐP,1,Bắt buộc
+12,HÓA,2,Bắt buộc
+12,HĐTN,2,Bắt buộc
+12,KTPL,2,Bắt buộc
+12,LÝ,2,Bắt buộc
+12,QPAN,1,Bắt buộc
+12,SINH,2,Bắt buộc
+12,SỬ,2,Bắt buộc
+12,TIN,2,Bắt buộc
+12,TOÁN,5,Bắt buộc
+12,VĂN,5,Bắt buộc
+12,ĐỊA,2,Bắt buộc
+10,AVBN,2,Tự chọn
+10,Bóng chuyền,2,Tự chọn
+10,Bóng rổ,2,Tự chọn
+10,Bóng đá,2,Tự chọn
+10,Cầu lông,2,Tự chọn
+10,STEM,2,Tự chọn
+10,THQT,2,Tự chọn
+11,AVBN,2,Tự chọn
+11,Bóng chuyền,2,Tự chọn
+11,Bóng rổ,2,Tự chọn
+11,Bóng đá,2,Tự chọn
+11,Cầu lông,2,Tự chọn
+11,STEM,2,Tự chọn
+11,THQT,2,Tự chọn
+12,Bóng chuyền,2,Tự chọn
+12,Bóng rổ,2,Tự chọn
+12,Bóng đá,2,Tự chọn
+12,Cầu lông,2,Tự chọn
+12,GD KT&PL,2,Tự chọn
+12,Hóa học,2,Tự chọn
+12,Lịch sử,2,Tự chọn
+12,Sinh học,2,Tự chọn
+12,THQT,2,Tự chọn
+12,Tin học,2,Tự chọn
+12,Tiếng Anh,2,Tự chọn
+12,Vật lí,2,Tự chọn
+12,Địa lí,2,Tự chọn
