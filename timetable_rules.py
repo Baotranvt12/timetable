@@ -11,6 +11,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+import re
+
 import pandas as pd
 
 import database
@@ -106,6 +108,16 @@ class TimetableIndex:
                 self.teacher_unavailable[full["ten"]] = busy
 
 
+_GROUP_CODE_RE = re.compile(r"^(CT|TC|TN)\d\d-[A-Z]+-\d+( / (CT|TC|TN)\d\d-[A-Z]+-\d+)*$")
+
+
+def is_shared_subject(mon) -> bool:
+    """Môn học chung nhiều lớp cùng giờ (ô ghi mã nhóm tự chọn, hoặc GDTC theo nhóm):
+    1 GV dạy nhiều lớp cùng tiết là đúng, không phải trùng giờ."""
+    m = str(mon or "")
+    return m == "GDTC" or bool(_GROUP_CODE_RE.match(m))
+
+
 def build_index(timetable_df: pd.DataFrame, teacher_prefs: list[dict] | None = None,
                 groups: pd.DataFrame | None = None) -> TimetableIndex:
     return TimetableIndex(timetable_df, teacher_prefs, groups)
@@ -158,6 +170,8 @@ def teacher_slot_reasons(
                 continue
             if other.get("lop") in sibling_classes:
                 continue
+            if other.get("mon") == mon and is_shared_subject(mon):
+                continue
             reasons.append(f"GV {tn} đã dạy lớp {other['lop']} cùng tiết đó.")
         if (target_thu, target_tiet, target_buoi) in idx.teacher_unavailable.get(tn, set()):
             reasons.append(f"GV {tn} đã báo bận tiết {target_thu} — tiết {target_tiet} — {target_buoi}.")
@@ -205,20 +219,32 @@ def find_school_errors(
                 for _, r in group_map.iterrows()} if not group_map.empty else {}
 
     # 1) GV dạy trùng tiết ở nhiều lớp — thay thế app.check_conflicts() cũ.
-    expanded = expand_team_teaching(timetable_df)
-    for (thu, tiet, buoi, tn), grp in expanded.groupby(["thu", "tiet", "buoi", "ten_gv"]):
-        classes = sorted(grp["lop"].unique())
-        if len(classes) <= 1:
+    #    Nhóm học chung (cùng 1 mã nhóm, hoặc GDTC) ở nhiều lớp cùng giờ là đúng; chỉ báo
+    #    khi GV phải dạy ≥2 việc khác nhau cùng lúc. Ô ghép "MÃ1 / MÃ2" có GV "GV1 / GV2"
+    #    thì mã thứ i thuộc GV thứ i.
+    slot_use: dict[tuple, dict[str, list]] = {}
+    for _, r in timetable_df[timetable_df["mon"] != "Chào cờ"].iterrows():
+        mon = str(r["mon"]); tns = [t.strip() for t in str(r["ten_gv"]).split(" / ") if t.strip()]
+        codes = mon.split(" / ")
+        for i, tn in enumerate(tns):
+            if mon == "GDTC":
+                key = "GDTC"
+            elif is_shared_subject(mon):
+                key = codes[i] if len(codes) == len(tns) else mon
+            else:
+                g = group_of.get((r["lop"], mon))
+                key = f"nhóm {g}" if g else f"{r['lop']} {mon}"
+            slot_use.setdefault((r["thu"], r["tiet"], r["buoi"], tn), {}).setdefault(key, []).append(r)
+    for (thu, tiet, buoi, tn), uses in slot_use.items():
+        if len(uses) <= 1:
             continue
-        subjects = set(grp["mon"].unique())
-        ma_nhoms = {group_of.get((lop, mon)) for lop, mon in zip(grp["lop"], grp["mon"])}
-        is_shared_group = (len(subjects) == 1 and len(ma_nhoms) == 1 and None not in ma_nhoms)
-        if is_shared_group:
-            continue
+        rows = [x for v in uses.values() for x in v]
+        classes = sorted({x["lop"] for x in rows})
         issues.append(Issue(
-            "teacher_double_booking", "error", thu, tiet, buoi, None, tn, grp["mon"].iloc[0],
-            f"GV {tn} dạy {len(classes)} lớp cùng tiết {thu} — tiết {tiet} — {buoi}: {', '.join(classes)}.",
-            tuple(int(i) for i in grp["id"]) if "id" in grp.columns else (),
+            "teacher_double_booking", "error", thu, tiet, buoi, None, tn, rows[0]["mon"],
+            f"GV {tn} dạy {len(uses)} việc cùng tiết {thu} — tiết {tiet} — {buoi}: "
+            f"{'; '.join(sorted(uses))} (lớp {', '.join(classes)}).",
+            tuple(int(x["id"]) for x in rows if "id" in x and pd.notna(x["id"])),
         ))
 
     # 2) Một lớp có nhiều tiết trùng giờ (scheduler.py kiểm khi sinh, nhưng

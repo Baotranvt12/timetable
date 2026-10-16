@@ -797,15 +797,18 @@ def get_homeroom() -> pd.DataFrame:
 
 def save_timetable(df: pd.DataFrame) -> int:
     """Lưu TKB (xoá cũ, nhập mới). Trả về số hàng."""
+    rows = [(str(r["thu"]), int(r["tiet"]), str(r["buoi"]),
+             str(r["lop"]), str(r["ten_gv"]), str(r["mon"])) for _, r in df.iterrows()]
     with _connect() as conn:
         conn.execute("DELETE FROM timetable")
-        conn.executemany(
-            "INSERT OR REPLACE INTO timetable (thu, tiet, buoi, lop, ten_gv, mon) "
-            "VALUES (?, ?, ?, ?, ?, ?)",
-            [(str(r["thu"]), int(r["tiet"]), str(r["buoi"]),
-              str(r["lop"]), str(r["ten_gv"]), str(r["mon"]))
-             for _, r in df.iterrows()],
-        )
+        # Ghi theo lô nhiều dòng/câu lệnh: ít lượt gửi qua mạng khi dùng Turso
+        for i in range(0, len(rows), 200):
+            chunk = rows[i:i + 200]
+            conn.execute(
+                "INSERT OR REPLACE INTO timetable (thu, tiet, buoi, lop, ten_gv, mon) VALUES "
+                + ", ".join(["(?, ?, ?, ?, ?, ?)"] * len(chunk)),
+                [v for row in chunk for v in row],
+            )
     return len(df)
 
 

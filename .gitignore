@@ -1,3 +1,6 @@
 
 # Bản sao cục bộ của database Turso
 data/turso_replica.db*
+
+# Mật khẩu/token — không đưa lên GitHub
+.streamlit/secrets.toml
